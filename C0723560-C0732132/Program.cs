@@ -43,8 +43,9 @@ namespace C0723560_C0732132
 
         // to do this, you must change the container for Student Names from Array to List
 
-        String[] names = new String[5] { "Bill", "Mary", "Laura", "Sam", "Steve" };
+        List<string> names = System.IO.File.ReadLines("text.txt").ToList();
 
+       
         Random r1;
 
 
